@@ -1,0 +1,62 @@
+html {
+    font-size: 62.5%;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    }
+    
+    .holiday-parent {
+    width: 65rem;
+    height: 45rem;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+
+    .holiday-gallery {
+    position: relative;
+    margin: 2rem;
+    }
+    .holiday {
+    height: 20rem;
+    position: absolute;
+    outline-offset: 1rem;
+    transition: all 0.3s;
+    }
+
+.holiday-header {
+font-size: 3rem;
+
+}
+
+    .diwali {
+top: 12rem;
+left: 15%;
+z-index: 2;
+    }
+
+    .christmas {
+top: 3rem;
+right: 1rem;
+z-index: 3;
+    }
+
+    .china  {
+top: -4rem;
+left: -2rem;
+z-index: 1;
+    }
+
+    .holiday:hover {
+transform: scale(1.3);
+outline: 1rem solid red;
+z-index: 2;
+
+    }
+
+    .holiday-gallery:hover .holiday:not(:hover) {
+transform: scale(0.8);
+opacity: 0.5;
+
+    }
