@@ -1,0 +1,14 @@
+$padding: 1.3rem;
+
+$colors: (
+  primary: #AD242C,
+  primary-variant: #CBAF71,
+  secondary: #ECDEB9,
+  background: #226F61,
+  secondary-variant: #a8a9ad,
+  );
+
+  @function color($color-name) {
+    @return 
+    map-get($colors, $color-name);
+  }
