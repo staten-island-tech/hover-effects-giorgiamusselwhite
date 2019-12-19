@@ -11,15 +11,15 @@ body {
 }
 
 .holiday-parent {
+  margin: 0 auto;
   width: 65rem;
   height: 45rem;
-  margin: 0 auto;
+  position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-item-align: center;
+      align-self: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -28,12 +28,17 @@ body {
 .holiday-gallery {
   position: relative;
   margin: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-item-align: center;
+      align-self: center;
 }
 
 .holiday {
   height: 20rem;
   position: absolute;
-  outline-offset: 1rem;
+  outline-offset: .5rem;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
 }
@@ -46,8 +51,7 @@ body {
   text-align: center;
   top: 3rem;
   font-family: 'Fugaz One', cursive;
-  text-shadow: 2rem 2rem 8rem white;
-  /* make hoverrrrrr ^ */
+  text-shadow: 2rem 2rem 8rem #ECDEB9;
 }
 
 .diwali {
@@ -80,4 +84,10 @@ body {
           transform: scale(0.8);
   opacity: 0.5;
 }
+
+/*  .cookies-parent {
+
+
+
+    } */
 /*# sourceMappingURL=style.css.map */
