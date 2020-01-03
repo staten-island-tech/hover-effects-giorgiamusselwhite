@@ -88,6 +88,72 @@
           filter: grayscale(50%);
 }
 
+.text1-parent {
+  margin: 0 auto;
+  width: 65rem;
+  height: 65rem;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-item-align: center;
+      align-self: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: #a8a9ad;
+}
+
+.text1 {
+  position: absolute;
+}
+
+.text1:hover {
+  cursor: pointer;
+  position: relative;
+  padding: 10px 20px;
+  background: white;
+  font-size: 28px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+.text1:hover:after, .text1:hover:before {
+  content: " ";
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  border: 0px solid #fff;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+.text1:hover:after {
+  top: -1px;
+  left: -1px;
+  border-top: 5px solid black;
+  border-left: 5px solid black;
+}
+
+.text1:hover:before {
+  bottom: -1px;
+  right: -1px;
+  border-bottom: 5px solid black;
+  border-right: 5px solid black;
+}
+
+.text1:hover:hover {
+  border-top-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+}
+
+.text1:hover:hover:before, .text1:hover:hover:after {
+  width: 100%;
+  height: 100%;
+}
+
 html {
   font-size: 62.5%;
   margin: 0;
@@ -109,5 +175,11 @@ body {
   top: 3rem;
   font-family: 'Fugaz One', cursive;
   text-shadow: 2rem 2rem 8rem #ECDEB9;
+}
+
+#reg-text {
+  font-family: 'Poppins', sans-serif;
+  font-size: 2.5rem;
+  color: #ECDEB9;
 }
 /*# sourceMappingURL=style.css.map */
