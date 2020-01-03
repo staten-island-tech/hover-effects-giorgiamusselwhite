@@ -20,6 +20,8 @@
       padding: 10rem;  
       overflow: hidden;
       opacity: 50%; 
-    }
+      transform: rotate(360deg);
+      filter: grayscale(50%);    
+}
 
   

@@ -82,6 +82,10 @@
   padding: 10rem;
   overflow: hidden;
   opacity: 50%;
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+  -webkit-filter: grayscale(50%);
+          filter: grayscale(50%);
 }
 
 html {
