@@ -21,6 +21,7 @@
       overflow: hidden;
       opacity: 50%; 
       transform: rotate(360deg);
+      transform-origin: center;
       filter: grayscale(50%);    
 }
 

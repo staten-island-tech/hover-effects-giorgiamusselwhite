@@ -84,14 +84,16 @@
   opacity: 50%;
   -webkit-transform: rotate(360deg);
           transform: rotate(360deg);
+  -webkit-transform-origin: center;
+          transform-origin: center;
   -webkit-filter: grayscale(50%);
           filter: grayscale(50%);
 }
 
 .text1-parent {
   margin: 0 auto;
-  width: 65rem;
-  height: 20rem;
+  width: 20rem;
+  height: 5rem;
   position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -101,26 +103,26 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  background: #a8a9ad;
+  background-color: red;
 }
 
 .text1 {
-  position: absolute;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-item-align: center;
-      align-self: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  color: #a8a9ad;
+  text-align: center;
+  font-size: 3rem;
+  font-family: 'Lateef', cursive;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  max-width: 50rem;
+  margin: 2rem;
+}
+
+.text1-parent {
+  opacity: 0.3;
 }
 
 .text1-parent:hover {
-  -webkit-box-shadow: 1px 1px #53a7ea, 2px 2px #53a7ea, 3px 3px #53a7ea;
-          box-shadow: 1px 1px #53a7ea, 2px 2px #53a7ea, 3px 3px #53a7ea;
-  -webkit-transform: translateX(-3px);
-  transform: translateX(-3px);
+  opacity: 0.8;
 }
 
 html {
@@ -144,11 +146,5 @@ body {
   top: 3rem;
   font-family: 'Fugaz One', cursive;
   text-shadow: 2rem 2rem 8rem #ECDEB9;
-}
-
-#reg-text {
-  font-family: 'Poppins', sans-serif;
-  font-size: 2.5rem;
-  color: #ECDEB9;
 }
 /*# sourceMappingURL=style.css.map */

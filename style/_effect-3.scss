@@ -1,27 +1,29 @@
 .text1-parent {
-    margin: 0 auto;
-    width: 65rem;
-    height: 20rem;
+  margin: 0 auto;
+    width: 20rem;
+    height: 5rem;
     position: relative;
     display: flex;
     align-self: center;
     justify-content: center;
-    background: color(secondary-variant);
-    }
+    background-color: red;
+}
 
-    .text1 {
-        position: absolute;
-        display: flex;
-        align-self: center;
-        justify-content: center;
-    }
+.text1 {
+  color: color(secondary-variant);
+  text-align: center;
+  font-size: 3rem;
+  font-family: 'Lateef', cursive;
+  flex-wrap: wrap;
+  max-width: 50rem;
+  margin: 2rem;
+}
 
-    .text1-parent:hover
-    {
-            box-shadow:
-                    1px 1px #53a7ea,
-                    2px 2px #53a7ea,
-                    3px 3px #53a7ea;
-            -webkit-transform: translateX(-3px);
-            transform: translateX(-3px);
-    }
+.text1-parent {
+        opacity:0.3;
+
+}
+
+.text1-parent:hover {
+        opacity:0.8;
+}
