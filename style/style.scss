@@ -25,14 +25,15 @@ color: color(secondary-variant);
 margin: 2rem;
 position: relative;
 text-align: center;
-top: 3rem;
 font-family: 'Fugaz One', cursive;
 text-shadow: 2rem 2rem 8rem color(secondary);
 }
 
-.parent-all {
+body {
 display: flex;
-align-items: stretch;
-
+text-align: center;
+justify-content: center;
+position: relative;
+top: 5rem;
 }
 

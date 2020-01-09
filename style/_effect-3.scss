@@ -1,7 +1,6 @@
 .text1-parent {
   margin: 0 auto;
     width: 20rem;
-    position: relative;
     display: flex;
     align-self: center;
     justify-content: center;
@@ -11,6 +10,7 @@
 .text1 {
   color: color(secondary-variant);
   text-align: center;
+  align-self: center;
   font-size: 3rem;
   font-family: 'Lateef', cursive;
   flex-wrap: wrap;

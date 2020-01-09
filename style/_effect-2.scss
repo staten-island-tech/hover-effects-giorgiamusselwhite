@@ -3,16 +3,19 @@
     width: 65rem;
     height: 45rem;
     display: flex;
-    align-self: center;
     justify-content: center;
+    align-items: center;
     }
 
 
     .cookies {
     height: 20rem;
-    position: absolute;
-    outline-offset: .5rem;
+    outline-offset: 0;
     transition: all 0.3s;
+    align-content: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
     }
 
     .cookies:hover { 
@@ -20,7 +23,7 @@
       overflow: hidden;
       opacity: 50%; 
       transform: rotate(360deg);
-      transform-origin: center;
+
       filter: grayscale(50%);    
 }
 
