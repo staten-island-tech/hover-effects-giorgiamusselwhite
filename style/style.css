@@ -1,3 +1,15 @@
+.header-h1 {
+  font-size: 3rem;
+  color: #a8a9ad;
+  margin: 2rem;
+  position: relative;
+  text-align: center;
+  font-family: 'Fugaz One', cursive;
+  text-shadow: 2rem 2rem 8rem #ECDEB9;
+  -webkit-animation: pulse 3s ease infinite alternate,  nudge 5s linear infinite alternate;
+          animation: pulse 3s ease infinite alternate,  nudge 5s linear infinite alternate;
+}
+
 .holiday-parent {
   margin: 0 auto;
   width: 65rem;
@@ -138,17 +150,24 @@
 .text2-box {
   width: 40rem;
   height: 10rem;
-  margin: 0;
+  margin: 0 auto;
   background-color: #CBAF71;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -ms-flex-item-align: center;
+      align-self: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  position: relative;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .text2 {
@@ -169,6 +188,7 @@
   display: -ms-flexbox;
   display: flex;
   font-weight: bold;
+  flex-wrap: wrap;
 }
 
 .text2:hover {
@@ -182,11 +202,15 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   -ms-flex-item-align: center;
       align-self: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  padding: 4rem;
 }
 
 .hannukah:hover {
@@ -218,16 +242,6 @@ html {
 
 body {
   background-color: #226F61;
-}
-
-.header-h1 {
-  font-size: 3rem;
-  color: #a8a9ad;
-  margin: 2rem;
-  position: relative;
-  text-align: center;
-  font-family: 'Fugaz One', cursive;
-  text-shadow: 2rem 2rem 8rem #ECDEB9;
 }
 
 body {
