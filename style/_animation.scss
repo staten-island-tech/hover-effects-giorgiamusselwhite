@@ -7,10 +7,24 @@
     text-align: center;
     font-family: 'Fugaz One', cursive;
     text-shadow: 2rem 2rem 8rem color(secondary);
-    animation: 
-    pulse 3s ease infinite alternate, 
-    nudge 5s linear infinite alternate;
-    }
+    animation-duration: 6s;
+    animation-name: bounceIn;
+    animation-iteration-count: infinite;
+        }
 
-   
-    
+        @keyframes bounceIn {
+            0% { 
+               opacity: 1; 
+               transform: scale(1);
+            }
+            50% { 
+               opacity: 1;
+               transform: scale(1.3);
+            }
+            70% {
+               transform: scale(.7);
+            }
+            100% {
+               transform: scale(1.3);
+            }
+         } 
